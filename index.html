@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Casper — Portfolio</title>
+  <meta name="description" content="Personal portfolio of Casper." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>👋</text></svg>" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container">
+      <a href="#top" class="brand">Casper</a>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark mode">🌙</button>
+    </nav>
+  </header>
+
+  <main id="top">
+    <!-- Hero -->
+    <section class="hero container">
+      <p class="eyebrow">Hi, my name is</p>
+      <h1 class="hero-title">Casper.</h1>
+      <h2 class="hero-subtitle">I build things for the web.</h2>
+      <p class="hero-text">
+        I'm a developer based in Taiwan, currently studying at National Central
+        University. I enjoy turning ideas into clean, fast, and accessible
+        software.
+      </p>
+      <div class="hero-actions">
+        <a href="#projects" class="btn btn-primary">View my work</a>
+        <a href="#contact" class="btn btn-ghost">Get in touch</a>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="section container">
+      <h2 class="section-title"><span>01.</span> About Me</h2>
+      <div class="about-grid">
+        <div>
+          <p>
+            Hello! I'm Casper, and I like building things that live on the
+            internet. My interest in software started when I wanted to
+            understand how the websites I used every day actually worked.
+          </p>
+          <p>
+            Today I focus on writing readable code, learning new tools, and
+            shipping projects end to end. This site is my corner of the web —
+            feel free to look around.
+          </p>
+          <p>A few technologies I've been working with recently:</p>
+          <ul class="tech-list">
+            <li>JavaScript</li>
+            <li>HTML &amp; CSS</li>
+            <li>Python</li>
+            <li>Git &amp; GitHub</li>
+            <li>Node.js</li>
+            <li>Linux</li>
+          </ul>
+        </div>
+        <div class="about-card">
+          <div class="avatar" aria-hidden="true">C</div>
+          <p class="about-card-text">Based in Taiwan 🇹🇼<br />Open to collaboration</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="section container">
+      <h2 class="section-title"><span>02.</span> Projects</h2>
+      <div class="projects-grid">
+        <article class="card">
+          <div class="card-top">
+            <span class="card-icon" aria-hidden="true">📁</span>
+            <a href="https://github.com/tocasper-eng" class="card-link" aria-label="GitHub repository">↗</a>
+          </div>
+          <h3 class="card-title">Project One</h3>
+          <p class="card-text">
+            A short description of a project you're proud of. Replace this with
+            something real — what it does and what you learned.
+          </p>
+          <ul class="card-tags">
+            <li>HTML</li><li>CSS</li><li>JS</li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <div class="card-top">
+            <span class="card-icon" aria-hidden="true">📁</span>
+            <a href="https://github.com/tocasper-eng" class="card-link" aria-label="GitHub repository">↗</a>
+          </div>
+          <h3 class="card-title">Project Two</h3>
+          <p class="card-text">
+            Another project description. Keep it to one or two sentences and
+            focus on the impact or the interesting technical part.
+          </p>
+          <ul class="card-tags">
+            <li>Python</li><li>API</li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <div class="card-top">
+            <span class="card-icon" aria-hidden="true">📁</span>
+            <a href="https://github.com/tocasper-eng" class="card-link" aria-label="GitHub repository">↗</a>
+          </div>
+          <h3 class="card-title">Project Three</h3>
+          <p class="card-text">
+            Describe a third project here. You can add or remove cards by
+            editing index.html.
+          </p>
+          <ul class="card-tags">
+            <li>Node.js</li><li>React</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="section container">
+      <h2 class="section-title"><span>03.</span> Skills</h2>
+      <div class="skills-grid">
+        <div class="skill"><span class="skill-emoji">🌐</span><h3>Frontend</h3><p>HTML, CSS, JavaScript, responsive design</p></div>
+        <div class="skill"><span class="skill-emoji">⚙️</span><h3>Backend</h3><p>Node.js, Python, REST APIs</p></div>
+        <div class="skill"><span class="skill-emoji">🛠️</span><h3>Tools</h3><p>Git, GitHub, VS Code, command line</p></div>
+        <div class="skill"><span class="skill-emoji">📚</span><h3>Learning</h3><p>Always picking up something new</p></div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section container contact">
+      <h2 class="section-title centered"><span>04.</span> Get In Touch</h2>
+      <p class="contact-text">
+        I'm always happy to chat about projects, ideas, or opportunities.
+        My inbox is open — feel free to say hello.
+      </p>
+      <a href="mailto:tocasper@g.ncu.edu.tw" class="btn btn-primary">Say Hello</a>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="social">
+        <a href="https://github.com/tocasper-eng" target="_blank" rel="noopener">GitHub</a>
+        <a href="mailto:tocasper@g.ncu.edu.tw">Email</a>
+      </div>
+      <p class="footer-note">Built with HTML &amp; CSS · Hosted on GitHub Pages</p>
+    </div>
+  </footer>
+
+  <script>
+    // Theme toggle with persistence
+    const toggle = document.getElementById('theme-toggle');
+    const root = document.documentElement;
+    const saved = localStorage.getItem('theme');
+    if (saved) root.setAttribute('data-theme', saved);
+    function syncIcon() {
+      toggle.textContent = root.getAttribute('data-theme') === 'light' ? '🌙' : '☀️';
+    }
+    syncIcon();
+    toggle.addEventListener('click', () => {
+      const next = root.getAttribute('data-theme') === 'light' ? 'dark' : 'light';
+      root.setAttribute('data-theme', next);
+      localStorage.setItem('theme', next);
+      syncIcon();
+    });
+  </script>
+</body>
+</html>
